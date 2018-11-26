@@ -1,4 +1,4 @@
-(ns com.wsscode.fuzzy.workspaces-main
+(ns com.wsscode.fuzzy.fuzzy-cards
   (:require [nubank.workspaces.core :as ws]
             [com.wsscode.fuzzy :as fuzzy]
             [cljs.test :refer-macros [is are run-tests async testing]]))
@@ -46,5 +46,3 @@
            :com.wsscode.fuzzy/match?      true
            :com.wsscode.fuzzy/match-score -8
            :com.wsscode.fuzzy/match-hl    "cd<b>a</b>"}])))
-
-(ws/mount)

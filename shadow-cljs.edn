@@ -1,13 +1,3 @@
 ;; shadow-cljs configuration
-{:deps   {:aliases [:provided :dev :test]}
- :nrepl  {:port 9849}
-
- :builds {:workspaces {:target           :browser
-                       :output-dir       "resources/public/js/workspaces"
-                       :asset-path       "/js/workspaces"
-                       :compiler-options {:closure-output-charset "US-ASCII"}
-                       :devtools         {:preloads           [fulcro.inspect.preload]
-                                          :http-root          "resources/public"
-                                          :http-port          3765
-                                          :http-resource-root "."}
-                       :modules          {:main {:entries [com.wsscode.fuzzy.workspaces-main]}}}}}
+{:deps  {:aliases [:provided :dev :test]}
+ :nrepl {:port 9849}}
