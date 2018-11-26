@@ -1,0 +1,4 @@
+= Fuzzy CLJS
+
+This library provides a CLJS wrapper for the fuzzy algorithm described in this page.
+
