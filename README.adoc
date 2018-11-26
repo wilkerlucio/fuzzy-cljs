@@ -1,4 +1,4 @@
 = Fuzzy CLJS
 
-This library provides a CLJS wrapper for the fuzzy algorithm described in this page.
+This library provides a CLJS wrapper for the fuzzy algorithm described by https://blog.forrestthewoods.com/reverse-engineering-sublime-text-s-fuzzy-match-4cffeed33fdb.
 
